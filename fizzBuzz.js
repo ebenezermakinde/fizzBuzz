@@ -3,7 +3,7 @@
 Scope: FizzBuzz program for numbers
 divisible by 3,5 or both btw 1 to 100
 */
-const fizzyBuzz = function(){
+const fizzyBuzz = () => {
      
     for(let i = 1; i <= 100; i++){
         let fizz = i % 3;
